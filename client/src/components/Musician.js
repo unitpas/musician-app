@@ -36,7 +36,7 @@ export default class MusicianAdmin extends Component {
                 <input 
                   className="input is-medium"
                   type="text" 
-                  placeholder="Enter name"
+                  placeholder="Enter Name"
                   value={this.state.updatedmusicianname}
                   onChange={this.onAddMusicianNameChange}
                 />
